@@ -1,0 +1,41 @@
+ ---
+description: General coding workflow standards
+alwaysApply: true
+---
+
+# Working Style
+
+- Favor a brownfield workflow: plan briefly, implement a small concrete change, review the code, then refine.
+- Do not over-design up front unless explicitly requested.
+- Prefer small, inspectable steps over large rewrites.
+- Preserve working behavior unless the task explicitly calls for restructuring.
+
+# Code Quality
+
+- Keep code easy for a human to read and review.
+- Prefer simple, explicit code over clever abstractions.
+- Extract helper functions when they improve reuse or clarity.
+- Avoid deeply nested conditionals when a clearer structure is possible.
+- Avoid mutating shared state in ways that make behavior hard to trace.
+
+# Architecture
+- When a library wraps or serializes another (e.g. UI framework + widget bridge + rendering backend), treat the combination as one versioned stack. Changing one package without checking the others is a first-class risk.
+-Prefer explicit pins for packages that sit on compatibility boundaries (major upgrades, optional extras, or packages that compile against a specific ABI/API). Open-ended lower bounds alone are not enough unless CI or a lockfile proves compatibility.
+-Prefer the documented integration path (official decorator/output pair, adapter, or plugin) over ad hoc mixing of APIs that “look similar.”
+-When debugging “code looks correct but nothing shows / wrong state,” check dependency and API mismatch before refactoring application logic.
+- Separate data preparation, business logic, and UI/rendering when relevant.
+- Do not mix expensive preprocessing into interactive or frequently rerun paths if it can be done once upstream.
+- Match the existing project structure unless there is a strong reason to change it.
+
+# Collaboration
+
+- When requirements are incomplete, implement the smallest sensible version first instead of inventing a large system.
+- If a task reveals repeated confusion or a recurring mistake, suggest a new rule that can be added here.
+- Prefer concrete progress over speculative architecture.
+- If I suggest anything that is incongruent or contradictory to existing functions or data in the codebase, point it out in your output
+
+# Verification
+
+- After making changes, suggest the smallest meaningful way to verify them.
+- For UI changes, describe what to check manually.
+- For logic changes, prefer lightweight checks or tests when appropriate.

@@ -1,0 +1,16 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+src/*.pyc
+
+.git
+
+# Distribution / packaging
+data/
+# Logs
+*.log
+
+# OS files
+.DS_Store
