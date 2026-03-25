@@ -8,8 +8,9 @@ src/*.pyc
 .git
 
 # Distribution / packaging
-data/
+data/processed/japan_weekly_weather.csv
 # Logs
+
 *.log
 
 # OS files
