@@ -1,5 +1,6 @@
 from __future__ import annotations
 
+import os
 from pathlib import Path
 
 import pandas as pd
@@ -21,8 +22,14 @@ from src.preprocessing import (
 
 
 BASE_DIR = Path(__file__).parent
-WEATHER_DATA_PATH = BASE_DIR / "data" / "processed" / "japan_weekly_weather.csv"
-STATIONS_DATA_PATH = BASE_DIR / "data" / "processed" / "japan_weekly_weather_stations.csv"
+WEATHER_DATA_PATH = os.getenv(
+    "WEATHER_DATA_PATH",
+    str(BASE_DIR / "data" / "processed" / "japan_weekly_weather.csv"),
+)
+STATIONS_DATA_PATH = os.getenv(
+    "STATIONS_DATA_PATH",
+    str(BASE_DIR / "data" / "processed" / "japan_weekly_weather_stations.csv"),
+)
 
 
 weekly_df = load_japan_weekly_tmin_tmax(WEATHER_DATA_PATH)

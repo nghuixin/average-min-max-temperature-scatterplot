@@ -3,3 +3,4 @@ plotly>=5.20,<6
 ipywidgets>=8.0.5
 shiny>=1.0
 shinywidgets>=0.3
+gcsfs>=2024.0
