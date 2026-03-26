@@ -1,10 +1,10 @@
-# Reproducible scatter plot — Japan weekly temperatures
+# Scatterplot showing average min and max temperatures across a 7-day period
+PyShiny App with filter by Year and Season (Winter, Spring, Autumn, Summmer)
 
-PyShiny app to explore weekly climate data as a **scatter plot of TMIN vs TMAX** (weekly means), with a matching **wide-format table**, **year** and **season** filters, and status-based coloring.
 
 ## Features
 
-- **Scatter plot**: x = weekly mean TMIN, y = weekly mean TMAX; color = `plot_status`.
+- **Scatter plot**: x = weekly mean TMIN, y = weekly mean TMAX; color = `plot_status`, which indicates if there was at least 6  `n_obs` to be considered as `valid_data`, where at least 6 data points were used to calculate the average temperature.  
 - **Axis titles**: values are **tenths of degrees Celsius** (see plot labels).
 - **Fixed axes for the selected year**: x/y ranges use min/max over **all plottable points for that year** (all seasons), so changing season or the display cap does not rescale the axes.
 - **Year** selector and **Season** multi-select (Winter / Spring / Summer / Autumn by `week_of_year`).
