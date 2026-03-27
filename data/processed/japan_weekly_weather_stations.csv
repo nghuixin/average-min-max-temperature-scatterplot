@@ -1,0 +1,203 @@
+station_id,name
+JA000047401,WAKKANAI                       GSN     47401
+JA000047402,KITAMIESASHI                           47402
+JA000047404,HABORO                                 47404
+JA000047405,OMU                                    47405
+JA000047406,RUMOI                                  47406
+JA000047407,ASAHIKAWA                              47407
+JA000047409,ABASHIRI                               47409
+JA000047411,OTARU                                  47411
+JA000047412,SAPPORO                                47412
+JA000047413,IWAMIZAWA                              47413
+JA000047417,OBIHIRO                                47417
+JA000047418,KUSHIRO                                47418
+JA000047420,NEMURO                         GSN     47420
+JA000047421,SUTTSU                                 47421
+JA000047423,MURORAN                                47423
+JA000047424,TOMAKOMAI                              47424
+JA000047426,URAKAWA                                47426
+JA000047428,ESASHI                                 47428
+JA000047430,HAKODATE                               47430
+JA000047433,KUTCHAN                                47433
+JA000047435,MOMBETSU                               47435
+JA000047440,HIROO                                  47440
+JA000047512,OFUNATO                                47512
+JA000047520,SHINJO                                 47520
+JA000047570,WAKAMATSU                              47570
+JA000047574,FUKAURA                                47574
+JA000047575,AOMORI                                 47575
+JA000047576,MUTSU                                  47576
+JA000047581,HACHINOHE                              47581
+JA000047582,AKITA                          GSN     47582
+JA000047584,MORIOKA                                47584
+JA000047585,MIYAKO                                 47585
+JA000047587,SHONAI                                 47587
+JA000047588,YAMAGATA                               47588
+JA000047590,SENDAI                                 47590
+JA000047592,ISHINOMAKI                             47592
+JA000047595,FUKUSHIMA ARPT                         47595
+JA000047597,SHIRAKAWA                              47597
+JA000047598,ONAHAMA                                47598
+JA000047600,WAJIMA                         GSN     47600
+JA000047602,AIKAWA                                 47602
+JA000047604,NIIGATA                                47604
+JA000047605,KANAZAWA                               47605
+JA000047606,FUSHIKI                                47606
+JA000047607,TOYAMA                                 47607
+JA000047610,NAGANO                                 47610
+JA000047612,TAKADA                                 47612
+JA000047615,UTSUNOMIYA                             47615
+JA000047616,FUKUI                                  47616
+JA000047617,TAKAYAMA                               47617
+JA000047618,MATSUMOTO                              47618
+JA000047620,SUWA                                   47620
+JA000047622,KARUIZAWA                              47622
+JA000047624,MAEBASHI                               47624
+JA000047626,KUMAGAYA                               47626
+JA000047629,MITO                                   47629
+JA000047631,TSURUGA                                47631
+JA000047632,GIFU                                   47632
+JA000047636,NAGOYA                                 47636
+JA000047637,IIDA                                   47637
+JA000047638,KOFU                                   47638
+JA000047640,KAWAGUCHIKO                            47640
+JA000047641,CHICHIBU                               47641
+JA000047648,CHOSHI                         GSN     47648
+JA000047649,UENO                                   47649
+JA000047651,TSU                                    47651
+JA000047653,IRAKO                                  47653
+JA000047654,HAMAMATSU                              47654
+JA000047655,OMAEZAKI                               47655
+JA000047656,SHIZUOKA                               47656
+JA000047657,MISHIMA                                47657
+JA000047662,TOKYO                                  47662
+JA000047663,OWASE                                  47663
+JA000047666,IROZAKI                                47666
+JA000047668,AJIRO                                  47668
+JA000047670,YOKOHAMA                               47670
+JA000047672,TATEYAMA                               47672
+JA000047674,KATSUURA                               47674
+JA000047675,OSHIMA                                 47675
+JA000047677,MIYAKEJIMA                             47677
+JA000047678,HACHIJOJIMA                            47678
+JA000047682,CHIBA                                  47682
+JA000047684,YOKKAICHI                              47684
+JA000047690,NIKKO                                  47690
+JA000047740,SAIGO                                  47740
+JA000047741,MATSUE                                 47741
+JA000047742,SAKAI                                  47742
+JA000047744,YONAGO                                 47744
+JA000047746,TOTTORI                                47746
+JA000047747,TAJIMA                                 47747
+JA000047750,MAIZURU REG MET HQ                     47750
+JA000047751,IBUKIYAMA MTN (AUT)                    47751
+JA000047754,IWAMI AIRPORT                          47783
+JA000047755,HAMADA                                 47755
+JA000047756,TSUYAMA                                47756
+JA000047759,KYOTO                                  47759
+JA000047761,HIKONE                                 47761
+JA000047762,SHIMONOSEKI                            47762
+JA000047765,HIROSHIMA                              47765
+JA000047766,KURE REG MET HQ                        47766
+JA000047767,FUKUYAMA                               47767
+JA000047768,OKAYAMA                                47768
+JA000047769,HIMEJI                                 47769
+JA000047770,KOBE                                   47770
+JA000047772,KANSAI INTERNATIONA                    47774
+JA000047776,SUMOTO                                 47776
+JA000047777,WAKAYAMA                               47777
+JA000047778,SHIONOMISAKI                   GSN     47778
+JA000047780,NARA                                   47780
+JA000047784,YAMAGUCHI                              47784
+JA000047800,IZUHARA                                47800
+JA000047805,HIRADO                                 47805
+JA000047807,FUKUOKA                                47807
+JA000047809,IIZUKA                                 47809
+JA000047812,SASEBO REG MET HQ                      47812
+JA000047813,SAGA                                   47813
+JA000047814,HITA                                   47814
+JA000047815,OITA                           GSN     47815
+JA000047817,NAGASAKI                       GSN     47817
+JA000047819,KUMAMOTO                               47819
+JA000047821,ASOSAN                                 47821
+JA000047822,NOBEOKA                                47822
+JA000047823,AKUNE                                  47823
+JA000047824,HITOYOSHI                              47824
+JA000047827,KAGOSHIMA                              47827
+JA000047829,MIYAKONOJO                             47829
+JA000047830,MIYAZAKI                               47830
+JA000047831,MAKURAZAKI                             47831
+JA000047835,ABURATSU                               47835
+JA000047836,YAKUSHIMA                              47836
+JA000047837,TANEGASHIMA                            47837
+JA000047838,USHIBUKA                               47838
+JA000047843,FUKUE                                  47843
+JA000047887,MATSUYAMA                              47887
+JA000047890,TADOTSU                                47890
+JA000047891,TAKAMATSU                              47891
+JA000047892,UWAJIMA                                47892
+JA000047893,KOCHI                                  47893
+JA000047894,TSURUGISAN                             47894
+JA000047895,TOKUSHIMA                              47895
+JA000047897,SUKUMO                                 47897
+JA000047898,SHIMIZU                                47898
+JA000047899,MUROTOMISAKI                           47899
+JA000047909,NAZE                                   47909
+JA000047912,YONAGUNI-JIMA                          47918
+JA000047918,HATERUMA                               47918
+JA000047927,SHIMOJISHIMA                   GSN     47927
+JA000047929,KUMEJIMA                               47929
+JA000047936,NAHA                           GSN     47936
+JA000047940,NAGO                                   47940
+JA000047942,YORON                                  47942
+JA000047945,KITADAITO                      GSN     47945
+JA000047971,CHICHIJIMA                     GSN     47971
+JA000047991,MINAMI TORI SHIMA MA           GSN     47991
+JAC00914290,IWO JIMA AFB
+JAC00914335,KADENA AFB OKINAWA
+JAC00914475,MARCUS ISLAND WB
+JAC00914540,NAHA AFB OKINAWA
+JAC00914975,YONTAN
+JAM00047772,OSAKA                                  47772
+JAM00047918,ISHIGAKI                               47918
+JAM00047927,MIYAKO                                 47927
+JAM00047945,MINAMI DAITO                           47945
+JAW00042202,OKINAWA RYUKYU ISLAN
+JAW00042204,KADENA AB                              47931
+JAW00042206,OKINAWA RYUKYU ISLAN
+JAW00042210,YONABARU RYUKYU ISLA
+JAW00042215,FUTENMA                                47933
+JAW00042216,HAMBY AAF
+JAW00042401,IWO JIMA AB
+JAW00042402,CHICHI JIMA BONIN IS                   47971
+JAW00042501,MARCUS ISLAND NF
+JAW00042502,MINAMI TORI SHIMA MA
+JAW00043285,SASEBO USN BASE                        47811
+JAW00043302,OSAKA
+JAW00043306,ASHIYA
+JAW00043307,TACHIKAWA
+JAW00043309,IRUMA
+JAW00043310,FUKUOKA
+JAW00043311,TOKYO
+JAW00043312,NAGOYA
+JAW00043313,FUSSA YOKOTA AB                        47642
+JAW00043314,MIHO
+JAW00043315,BOFU
+JAW00043316,BRADY
+JAW00043317,YUKUHASHI
+JAW00043318,NIIGATA                                47573
+JAW00043319,ATSUGI
+JAW00043320,OPPAMA
+JAW00043321,KISARAZU                               47661
+JAW00043322,IWAKUNI
+JAW00043323,YOKOSUKA                               47696
+JAW00043324,IWAKUNI                                47764
+JAW00043325,KASTNER AAF                            47680
+JAW00043326,CAMP OTSU
+JAW00043327,CHOFU
+JAW00043328,HAMAMATSU
+JAW00043329,OTA
+JAW00043401,MATSUSHIMA
+JAW00043402,KASUMINOM
+JAW00044401,CHITOSE HOKKAIDO
+JAW00044402,MISAWA

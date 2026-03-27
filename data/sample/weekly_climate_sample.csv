@@ -1,0 +1,17 @@
+station_id,year,week_of_year,element,n_obs,weekly_mean,week_status
+JA000000001,2021,1,TMIN,7,2.1,valid_data
+JA000000001,2021,1,TMAX,7,10.4,valid_data
+JA000000001,2021,2,TMIN,5,1.6,valid_data
+JA000000001,2021,2,TMAX,4,9.8,insufficient_data
+JA000000002,2021,1,TMIN,7,3.4,valid_data
+JA000000002,2021,1,TMAX,7,11.0,valid_data
+JA000000002,2021,2,TMIN,0,,no_data
+JA000000002,2021,2,TMAX,0,,no_data
+JA000000001,2022,1,TMIN,7,1.8,valid_data
+JA000000001,2022,1,TMAX,7,9.7,valid_data
+JA000000001,2022,2,TMIN,7,0.9,valid_data
+JA000000001,2022,2,TMAX,7,8.9,valid_data
+JA000000002,2022,1,TMIN,6,2.9,valid_data
+JA000000002,2022,1,TMAX,6,10.6,valid_data
+JA000000002,2022,2,TMIN,7,2.3,valid_data
+JA000000002,2022,2,TMAX,7,9.9,valid_data
