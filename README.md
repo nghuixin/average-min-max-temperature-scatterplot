@@ -3,7 +3,7 @@ PyShiny App with filter by Year and Season (Winter, Spring, Autumn, Summmer)
 
 
 ## Features
-
+Data is stored in a Google Cloud Storage Bucket and accessed via a URL.  
 - **Scatter plot**: x = weekly mean TMIN, y = weekly mean TMAX; color = `plot_status`, which indicates if there was at least 6  `n_obs` to be considered as `valid_data`, where at least 6 data points were used to calculate the average temperature.  
 - **Axis titles**: values are **tenths of degrees Celsius** (see plot labels).
 - **Fixed axes for the selected year**: x/y ranges use min/max over **all plottable points for that year** (all seasons), so changing season or the display cap does not rescale the axes.
